@@ -1,0 +1,24 @@
+{
+    "name": "rokorolov/yii2-statusaction-widget",
+    "description": "StatusAction is a widget for manage the statuses.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","component","status","action"],
+    "homepage": "https://github.com/rokorolov/yii2-statusaction-widget",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "rokorolov",
+            "email": "rokorolov@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.6",
+        "rokorolov/yii2-helpers": "*",
+        "rokorolov/yii2-base": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "rokorolov\\statusaction\\": "src"
+        }
+    }
+}
